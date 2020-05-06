@@ -1,0 +1,17 @@
+To run demo:
+From windows command line: 
+cd into the local directory where the project is saved 
+type: "python manage.py runserver"
+In your browser, navigate to: http://localhost:8000/blog
+
+Note that forget password will not work in this testing environment. 
+In order to make it work when running the program locally, you need to add System Environment Variables
+Steps: 
+1) In system settings (control pannel) navigate to System Properties 
+2) Nav to Edit the System Environment Variables
+3) Click Environment Variables button on the bottom
+4) Under user variables, you need to add 2 variables: 
+	Variable-1 name = [EMAIL_USER]; value = [ENTER YOUR GMAIL EMAIL ADDRESS]
+	Variable-2 name = [EMAIL_PASS]; value = [ENTER YOUR GMAIL EMAIL PASSWORD]
+*Since you are creating these variables on your local machine, it is safe to enter the information here
+*If Email flow does not work, you need to to you your GMAIL settings and toggle on "Less secure app access" from Gmail security settings
